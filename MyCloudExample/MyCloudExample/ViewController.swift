@@ -22,10 +22,12 @@ class ViewController: UIViewController {
         myCloud.write("folder", merge: true, data: data) { value in
         }
         
-        myCloud.read("folder") { (value : [AnyHashable : Any]) in
+        myCloud.read("folder") { (value : Dictionary) in
+            let data = value["data"]
+            print( "\(data!)")
             print( "\(value)")
         }
-        
+
         myCloud.watch("folder") { (value : [AnyHashable : Any]) in
             print( "\(value)")
         }
