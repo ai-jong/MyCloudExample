@@ -7,6 +7,7 @@ MyCloud is an open-source, Swift-based cloud storage library designed to simplif
 - [Features](#features)
 - [Example](#example)
 - [License](#license)
+- [Contact](#contact)
 
 ## Features
 - [x] Cloud storage is a crucial component of modern apps.
@@ -14,7 +15,6 @@ MyCloud is an open-source, Swift-based cloud storage library designed to simplif
 - [x] Installing and integrating MyCloud is quick and straightforward.
   
 ## Example
-
 ```swift
 import MyCloud
 
@@ -39,6 +39,8 @@ func myCloudExample() {
 ```
 
 ## License
-
 MyCloud is released under the MIT license.
 
+## Contact
+- [x] Author: John W. Blaine
+- [x] Email: john.w.blaine@gmail.com
